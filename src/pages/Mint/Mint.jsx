@@ -22,7 +22,14 @@ const Mint = () => {
         </h1>
 
         <div className="mint-boxes">
-          <MintBox title="WHITELIST" remaining="0" />
+          <MintBox
+            title={
+              <>
+                WHITELIST<span className="font-normal"> / </span>OG
+              </>
+            }
+            remaining="0"
+          />
           <MintBox title="PUBLIC" remaining="372" />
         </div>
       </div>
