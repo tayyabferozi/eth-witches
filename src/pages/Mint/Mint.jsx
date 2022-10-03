@@ -22,8 +22,8 @@ const Mint = () => {
         </h1>
 
         <div className="mint-boxes">
-          <MintBox title="WHITELIST" remaining="0" quantity="1" />
-          <MintBox title="PUBLIC" remaining="372" quantity="1" />
+          <MintBox title="WHITELIST" remaining="0" />
+          <MintBox title="PUBLIC" remaining="372" />
         </div>
       </div>
     </div>

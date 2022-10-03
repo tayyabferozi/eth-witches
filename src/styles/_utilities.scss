@@ -44,6 +44,10 @@ h1 {
   @media screen and (max-width: 1440px) {
     font-size: 86px;
   }
+
+  @media screen and (max-width: 575px) {
+    font-size: 56px;
+  }
 }
 
 h2 {
@@ -52,11 +56,20 @@ h2 {
   @media screen and (max-width: 1440px) {
     font-size: 42px;
   }
+
+  @media screen and (max-width: 575px) {
+    font-size: 36px;
+  }
 }
 
 .page-section {
   padding-left: 3rem;
   padding-right: 3rem;
+
+  @media screen and (max-width: 575px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .page-container {
     max-width: 1440px;
